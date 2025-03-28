@@ -1,0 +1,48 @@
+﻿@page "/crear-receta"
+@inject Services.RecetaService RecetaService
+@inject NavigationManager NavigationManager
+
+<h1>Crear nueva receta</h1>
+
+<EditForm Model="nuevaReceta" OnValidSubmit="GuardarReceta">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input id="nombre" class="form-control" @bind="nuevaReceta.Nombre" />
+    </div>
+    <div class="mb-3">
+        <label for="ingredientes" class="form-label">Ingredientes</label>
+        <textarea id="ingredientes" class="form-control" @bind="nuevaReceta.Ingredientes" />
+    </div>
+    <div class="mb-3">
+        <label for="instrucciones" class="form-label">Instrucciones</label>
+        <textarea id="instrucciones" class="form-control" @bind="nuevaReceta.Instrucciones" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Guardar</button>
+</EditForm>
+
+<div class="mt-4">
+    <button class="btn btn-secondary" @onclick="VolverALaPaginaPrincipal">Volver</button>
+</div>
+
+@code {
+    private RecetasApk.Models.Receta nuevaReceta = new();
+
+    private async Task GuardarReceta()
+    {
+        await RecetaService.SaveRecetaAsync(nuevaReceta);
+        NavigationManager.NavigateTo("/");
+    }
+
+    private async Task VolverALaPaginaPrincipal()
+    {
+        var confirmar = await Task.FromResult<bool>(true);
+        if (confirmar)
+        {
+            NavigationManager.NavigateTo("/");
+        }        
+    }
+}

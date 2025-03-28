@@ -1,0 +1,59 @@
+﻿@page "/"
+@inject NavigationManager NavigationManager
+@inject Services.RecetaService RecetaService
+
+<h1>Mis recetas!</h1>
+
+<div class="mb-3">
+    <button class="btn btn-primary" @onclick="IrACrearReceta">Crear Receta</button>
+</div>
+
+<div class="input-group mb-3">
+    <input @bind="query" type="text" class="form-control" placeholder="Buscar recetas..." />
+    <button class="btn btn-secondary" @onclick="BuscarRecetas">Buscar</button>
+</div>
+
+@if (recetas is not null)
+{
+    <ul class="list-group">
+        @if (recetas.Any())
+        {
+            @foreach (var receta in recetas)
+            {
+                <li class="list-group-item">
+                    <a href="/ver-receta/@receta.Id" class="text-decoration-none">
+                        @receta.Nombre
+                    </a>
+                </li>
+            }
+        }
+        else
+        {
+            <li class="list-group-item">No se encontraron recetas.</li>
+        }
+    </ul>
+}
+
+@code {
+    private string query = string.Empty;
+    private List<RecetasApk.Models.Receta> recetas = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        recetas = await RecetaService.GetRecetasAsync();
+    }
+
+    private void IrACrearReceta()
+    {
+        NavigationManager.NavigateTo("/crear-receta");
+    }
+
+    private async Task BuscarRecetas()
+    {
+        var todas = await RecetaService.GetRecetasAsync();
+        recetas = string.IsNullOrEmpty(query)
+            ? todas
+            : todas.Where(recetas => recetas.Nombre.Contains(query, StringComparison.OrdinalIgnoreCase)).ToList();
+    }
+
+}

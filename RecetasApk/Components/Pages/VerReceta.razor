@@ -1,0 +1,67 @@
+﻿@page "/ver-receta/{id:int}"
+@using RecetasApk.Models
+@inject Services.RecetaService RecetaService
+@inject NavigationManager NavigationManager
+
+<h1>A cocinar!!!</h1>
+
+@if (receta != null)
+{
+    <div class="card">
+        <div class="card-header">
+            <h2>@receta.Nombre</h2>
+        </div>
+        <div class="card-body">
+            <p><strong>Ingredientes:</strong></p>
+            <p>@receta.Ingredientes</p>
+
+            <p><strong>Instrucciones:</strong></p>
+            <p>@receta.Instrucciones</p>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <button class="btn btn-primary" @onclick="IrAModificarReceta">Editar</button>
+        <button class="btn btn-danger ms-2" @onclick="EliminarReceta">Eliminar</button>
+    </div>
+}
+else
+{
+    <p>La receta no se encontró.</p>
+}
+
+<button class="btn btn-secondary mt-3" @onclick="VolverAPrincipal">Volver a la Página Principal</button>
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    private Receta? receta;
+
+    protected override async Task OnInitializedAsync()
+    {
+        receta = await RecetaService.GetRecetaAsync(id);
+    }
+
+    private void IrAModificarReceta()
+    {
+        NavigationManager.NavigateTo($"/modificar-receta/{id}");
+    }
+
+    private async Task EliminarReceta() 
+    {
+        var confirmar = await Task.FromResult<bool>(true);
+        if(confirmar)
+        {
+            await RecetasService.DeleteRecetaAsync(receta);
+            NavigationManager.NavigateTo("/");
+        }
+    }
+
+    private void VolverAPrincipal()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+}
+ 
+
