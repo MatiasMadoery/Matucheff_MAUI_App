@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wtsw9B6z4/IejsjgbDimnyth1vePw345uiRlfJInQoo=",
+  "Hash": "Fs43S/zVCaITYIxe7ymJClJK1HNVuPtz2BKqnN0Ra30=",
   "Source": "RecetasApk",
   "BasePath": "/",
   "Mode": "Root",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dex3usdpik",
-      "Integrity": "K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ=",
+      "Fingerprint": "jqyt8htakz",
+      "Integrity": "G5FaInEay51DVRI9bFdibEWpaC6Hm2RnBJau+LuBA1s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
@@ -143,6 +143,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
+      "Identity": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\wwwroot\\img\\siteImages\\banner.jpg",
+      "SourceId": "RecetasApk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "img/siteImages/banner#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xlvbcavjjw",
+      "Integrity": "O+ekksgpNYK9puk9BiCu9cSm1AEUFvlAc4fbSayj90w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\siteImages\\banner.jpg"
+    },
+    {
       "Identity": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\wwwroot\\index.html",
       "SourceId": "RecetasApk",
       "SourceType": "Discovered",
@@ -176,7 +197,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3339"
+          "Value": "3488"
         },
         {
           "Name": "Content-Type",
@@ -184,11 +205,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ=\""
+          "Value": "\"G5FaInEay51DVRI9bFdibEWpaC6Hm2RnBJau+LuBA1s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 14:22:26 GMT"
+          "Value": "Sat, 29 Mar 2025 13:45:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -198,12 +219,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ="
+          "Value": "sha256-G5FaInEay51DVRI9bFdibEWpaC6Hm2RnBJau+LuBA1s="
         }
       ]
     },
     {
-      "Route": "css/app.dex3usdpik.css",
+      "Route": "css/app.jqyt8htakz.css",
       "AssetFile": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -213,7 +234,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3339"
+          "Value": "3488"
         },
         {
           "Name": "Content-Type",
@@ -221,11 +242,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ=\""
+          "Value": "\"G5FaInEay51DVRI9bFdibEWpaC6Hm2RnBJau+LuBA1s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 14:22:26 GMT"
+          "Value": "Sat, 29 Mar 2025 13:45:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -235,7 +256,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dex3usdpik"
+          "Value": "jqyt8htakz"
         },
         {
           "Name": "label",
@@ -243,7 +264,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ="
+          "Value": "sha256-G5FaInEay51DVRI9bFdibEWpaC6Hm2RnBJau+LuBA1s="
         }
       ]
     },
@@ -494,6 +515,88 @@
       ]
     },
     {
+      "Route": "img/siteImages/banner.jpg",
+      "AssetFile": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\wwwroot\\img\\siteImages\\banner.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O+ekksgpNYK9puk9BiCu9cSm1AEUFvlAc4fbSayj90w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:36:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O+ekksgpNYK9puk9BiCu9cSm1AEUFvlAc4fbSayj90w="
+        }
+      ]
+    },
+    {
+      "Route": "img/siteImages/banner.xlvbcavjjw.jpg",
+      "AssetFile": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\wwwroot\\img\\siteImages\\banner.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O+ekksgpNYK9puk9BiCu9cSm1AEUFvlAc4fbSayj90w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:36:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xlvbcavjjw"
+        },
+        {
+          "Name": "label",
+          "Value": "img/siteImages/banner.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O+ekksgpNYK9puk9BiCu9cSm1AEUFvlAc4fbSayj90w="
+        }
+      ]
+    },
+    {
       "Route": "index.ccmmb7ojjs.html",
       "AssetFile": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\wwwroot\\index.html",
       "Selectors": [],
@@ -598,7 +701,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 16:19:13 GMT"
+          "Value": "Sat, 29 Mar 2025 14:55:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -635,7 +738,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 16:19:13 GMT"
+          "Value": "Sat, 29 Mar 2025 14:55:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -680,7 +783,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 16:19:13 GMT"
+          "Value": "Sat, 29 Mar 2025 14:55:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -725,7 +828,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 16:19:13 GMT"
+          "Value": "Sat, 29 Mar 2025 14:55:48 GMT"
         },
         {
           "Name": "Cache-Control",

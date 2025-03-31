@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4E5A59E2-413E-4852-BF32-BEAF412E7490}|RecetasApk\\RecetasApk.csproj|c:\\users\\matim\\onedrive\\escritorio\\proyectos\\apkrecetas\\recetasapk\\recetasapk\\components\\pages\\modificarreceta.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E5A59E2-413E-4852-BF32-BEAF412E7490}|RecetasApk\\RecetasApk.csproj|solutionrelative:recetasapk\\components\\pages\\modificarreceta.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E5A59E2-413E-4852-BF32-BEAF412E7490}|RecetasApk\\RecetasApk.csproj|c:\\users\\matim\\onedrive\\escritorio\\proyectos\\apkrecetas\\recetasapk\\recetasapk\\components\\pages\\verreceta.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4E5A59E2-413E-4852-BF32-BEAF412E7490}|RecetasApk\\RecetasApk.csproj|solutionrelative:recetasapk\\components\\pages\\verreceta.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E5A59E2-413E-4852-BF32-BEAF412E7490}|RecetasApk\\RecetasApk.csproj|c:\\users\\matim\\onedrive\\escritorio\\proyectos\\apkrecetas\\recetasapk\\recetasapk\\components\\pages\\crearreceta.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E5A59E2-413E-4852-BF32-BEAF412E7490}|RecetasApk\\RecetasApk.csproj|solutionrelative:recetasapk\\components\\pages\\crearreceta.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E5A59E2-413E-4852-BF32-BEAF412E7490}|RecetasApk\\RecetasApk.csproj|c:\\users\\matim\\onedrive\\escritorio\\proyectos\\apkrecetas\\recetasapk\\recetasapk\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E5A59E2-413E-4852-BF32-BEAF412E7490}|RecetasApk\\RecetasApk.csproj|solutionrelative:recetasapk\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,16 +42,53 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CrearReceta.razor",
+              "DocumentMoniker": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\Components\\Pages\\CrearReceta.razor",
+              "RelativeDocumentMoniker": "RecetasApk\\Components\\Pages\\CrearReceta.razor",
+              "ToolTip": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\Components\\Pages\\CrearReceta.razor",
+              "RelativeToolTip": "RecetasApk\\Components\\Pages\\CrearReceta.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-29T14:51:20.03Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ModificarReceta.razor",
+              "DocumentMoniker": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\Components\\Pages\\ModificarReceta.razor",
+              "RelativeDocumentMoniker": "RecetasApk\\Components\\Pages\\ModificarReceta.razor",
+              "ToolTip": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\Components\\Pages\\ModificarReceta.razor",
+              "RelativeToolTip": "RecetasApk\\Components\\Pages\\ModificarReceta.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-29T13:39:29.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "VerReceta.razor",
               "DocumentMoniker": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\Components\\Pages\\VerReceta.razor",
               "RelativeDocumentMoniker": "RecetasApk\\Components\\Pages\\VerReceta.razor",
               "ToolTip": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\Components\\Pages\\VerReceta.razor",
               "RelativeToolTip": "RecetasApk\\Components\\Pages\\VerReceta.razor",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADgAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAD0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T16:24:52.232Z",
+              "WhenOpened": "2025-03-29T13:39:12.281Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "RecetasApk\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "RecetasApk\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAUAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-29T13:38:13.294Z"
             }
           ]
         }

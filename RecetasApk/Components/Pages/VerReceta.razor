@@ -1,5 +1,6 @@
 ﻿@page "/ver-receta/{id:int}"
 @using RecetasApk.Models
+@using RecetasApk.Services
 @inject Services.RecetaService RecetaService
 @inject NavigationManager NavigationManager
 
@@ -53,7 +54,7 @@ else
         var confirmar = await Task.FromResult<bool>(true);
         if(confirmar)
         {
-            await RecetasService.DeleteRecetaAsync(receta);
+            await RecetaService.DeleteRecetaAsync(receta!);
             NavigationManager.NavigateTo("/");
         }
     }

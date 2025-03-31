@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\wwwroot\\img\\siteImages\\banner.jpg",
+      "PackagePath": "staticwebassets\\img\\siteImages\\banner.jpg"
+    },
+    {
       "Id": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

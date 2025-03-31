@@ -1,0 +1,67 @@
+﻿@page "/modificar-receta/{id:int}"
+@using RecetasApk.Models
+@using RecetasApk.Services
+@inject Services.RecetaService RecetaService
+@inject NavigationManager NavigationManager
+
+<h3>Modificar Receta</h3>
+
+@if (receta == null)
+{    
+    <p>Cargando receta...</p>
+}
+else
+{
+    <EditForm Model="receta" OnValidSubmit="GuardarCambios">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input id="nombre" class="form-control" @bind="receta.Nombre" />
+        </div>
+        <div class="mb-3">
+            <label for="ingredientes" class="form-label">Ingredientes</label>
+            <textarea id="ingredientes" class="form-control" @bind="receta.Ingredientes"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="instrucciones" class="form-label">Instrucciones</label>
+            <textarea id="instrucciones" class="form-control" @bind="receta.Instrucciones"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-success">Guardar cambios</button>
+        <button type="button" class="btn btn-secondary ms-2" @onclick="VolverAPaginaPrincipal">Cancelar</button>
+    </EditForm>
+}
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    private RecetasApk.Models.Receta? receta;
+
+    protected override async Task OnInitializedAsync()
+    {
+        receta = await RecetaService.GetRecetaAsync(id);
+        
+        if (receta == null)
+        {
+            Console.WriteLine($"No se encontró la receta con ID {id}.");
+           
+        }
+    }
+
+    private async Task GuardarCambios()
+    {
+        if (receta != null)
+        {
+            await RecetaService.SaveRecetaAsync(receta);
+            NavigationManager.NavigateTo($"/ver-receta/{id}");
+        }
+    }
+
+    private void VolverAPaginaPrincipal()
+    {
+        NavigationManager.NavigateTo($"/ver-receta/{id}");
+    }
+}

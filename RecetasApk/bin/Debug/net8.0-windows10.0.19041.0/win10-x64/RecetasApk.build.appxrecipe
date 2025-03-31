@@ -52,6 +52,9 @@
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\wwwroot\favicon.png">
       <PackagePath>wwwroot\favicon.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\wwwroot\img\siteImages\banner.jpg">
+      <PackagePath>wwwroot\img\siteImages\banner.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\wwwroot\index.html">
       <PackagePath>wwwroot\index.html</PackagePath>
     </AppxPackagedFile>

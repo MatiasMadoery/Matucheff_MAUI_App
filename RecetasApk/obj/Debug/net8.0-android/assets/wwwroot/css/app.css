@@ -2,6 +2,13 @@
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Opcional: para bordes redondeados */
+    margin-bottom: 20px;
+}
+
 a, .btn-link {
     color: #006bb7;
 }
