@@ -100,9 +100,6 @@ C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\bi
 C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll
 C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.SDK.NET.dll
 C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\WinRT.Runtime.dll
-C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Controls.HotReload.Forms.dll
-C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
 C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RecetasApk.csproj.AssemblyReference.cache
 C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
 C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
@@ -139,6 +136,11 @@ C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\ob
 C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauisplash.stamp
 C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.stamp
 C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
+C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
+C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
+C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
+C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png
+C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png
 C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png
 C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png
 C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png
@@ -185,11 +187,6 @@ C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\ob
 C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png
 C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png
 C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico
-C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
-C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
-C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
-C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png
-C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png
 C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.stamp
 C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.outputs
 C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\RecetasApk.AssemblyInfoInputs.cache

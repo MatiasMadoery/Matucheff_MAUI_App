@@ -1,0 +1,61 @@
+﻿@page "/modificar-lista/{id:int}"
+@using RecetasApk.Models
+@using RecetasApk.Services
+@using Microsoft.Maui.Storage
+@inject Services.ListaSuperService ListaSuperService
+@inject NavigationManager NavigationManager
+
+<h3>Modificar Lista de compras</h3>
+
+@if (lista == null)
+{
+    <p>Cargando lista...</p>
+}
+else
+{
+    <EditForm Model="lista" OnValidSubmit="GuardarCambios">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+      
+        <div class="mb-3">
+            <label for="lista" class="form-label">Lista</label>
+            <textarea id="lista" class="form-control" @bind="lista.Lista"></textarea>
+        </div>     
+     
+        <button type="submit" class="btn btn-success">Guardar cambios</button>
+        <button type="button" class="btn btn-secondary ms-2" @onclick="VolverAPaginaPrincipal">Cancelar</button>
+    </EditForm>
+}
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    private RecetasApk.Models.ListaSuper? lista;
+
+    protected override async Task OnInitializedAsync()
+    {
+        lista = await ListaSuperService.GetListaSuperAsync(id);
+
+        if (lista == null)
+        {
+            Console.WriteLine($"No se encontró la lista con ID {id}.");
+            return;
+        }
+    }
+
+    private async Task GuardarCambios()
+    {
+        if (lista != null)
+        {
+            await ListaSuperService.SaveListaSuperAsync(lista);
+            NavigationManager.NavigateTo($"/ver-lista/{id}");
+        }
+    }
+  
+
+    private void VolverAPaginaPrincipal()
+    {
+        NavigationManager.NavigateTo($"/ver-lista/{id}");
+    }
+}

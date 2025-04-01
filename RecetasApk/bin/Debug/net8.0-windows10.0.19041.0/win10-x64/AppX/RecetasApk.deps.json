@@ -9,10 +9,12 @@
     ".NETCoreApp,Version=v8.0/win10-x64": {
       "RecetasApk/1.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.14",
           "Microsoft.AspNetCore.Components.WebView.Maui": "8.0.100",
           "Microsoft.Extensions.Logging.Debug": "8.0.1",
           "Microsoft.Maui.Controls": "8.0.100",
           "Microsoft.Maui.Controls.Compatibility": "8.0.100",
+          "sqlite-net-pcl": "1.9.172",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.57"
         },
         "runtime": {
@@ -31,62 +33,62 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authorization/8.0.10": {
+      "Microsoft.AspNetCore.Authorization/8.0.14": {
         "dependencies": {
-          "Microsoft.AspNetCore.Metadata": "8.0.10",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.AspNetCore.Metadata": "8.0.14",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
           "Microsoft.Extensions.Options": "8.0.2"
         },
         "runtime": {
           "lib/net8.0/Microsoft.AspNetCore.Authorization.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46804"
+            "fileVersion": "8.0.1425.11221"
           }
         }
       },
-      "Microsoft.AspNetCore.Components/8.0.10": {
+      "Microsoft.AspNetCore.Components/8.0.14": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "8.0.10",
-          "Microsoft.AspNetCore.Components.Analyzers": "8.0.10"
+          "Microsoft.AspNetCore.Authorization": "8.0.14",
+          "Microsoft.AspNetCore.Components.Analyzers": "8.0.14"
         },
         "runtime": {
           "lib/net8.0/Microsoft.AspNetCore.Components.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46804"
+            "fileVersion": "8.0.1425.11221"
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Analyzers/8.0.10": {},
-      "Microsoft.AspNetCore.Components.Forms/8.0.10": {
+      "Microsoft.AspNetCore.Components.Analyzers/8.0.14": {},
+      "Microsoft.AspNetCore.Components.Forms/8.0.14": {
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "8.0.10"
+          "Microsoft.AspNetCore.Components": "8.0.14"
         },
         "runtime": {
           "lib/net8.0/Microsoft.AspNetCore.Components.Forms.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46804"
+            "fileVersion": "8.0.1425.11221"
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Web/8.0.10": {
+      "Microsoft.AspNetCore.Components.Web/8.0.14": {
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "8.0.10",
-          "Microsoft.AspNetCore.Components.Forms": "8.0.10",
+          "Microsoft.AspNetCore.Components": "8.0.14",
+          "Microsoft.AspNetCore.Components.Forms": "8.0.14",
           "Microsoft.Extensions.DependencyInjection": "8.0.1",
           "Microsoft.Extensions.Primitives": "8.0.0",
-          "Microsoft.JSInterop": "8.0.10",
+          "Microsoft.JSInterop": "8.0.14",
           "System.IO.Pipelines": "8.0.0"
         },
         "runtime": {
           "lib/net8.0/Microsoft.AspNetCore.Components.Web.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46804"
+            "fileVersion": "8.0.1425.11221"
           }
         }
       },
       "Microsoft.AspNetCore.Components.WebView/8.0.10": {
         "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "8.0.10",
+          "Microsoft.AspNetCore.Components.Web": "8.0.14",
           "Microsoft.Extensions.Configuration.Binder": "8.0.2",
           "Microsoft.Extensions.Configuration.Json": "8.0.1",
           "Microsoft.Extensions.FileProviders.Composite": "8.0.0",
@@ -102,9 +104,9 @@
       },
       "Microsoft.AspNetCore.Components.WebView.Maui/8.0.100": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "8.0.10",
+          "Microsoft.AspNetCore.Authorization": "8.0.14",
           "Microsoft.AspNetCore.Components.WebView": "8.0.10",
-          "Microsoft.JSInterop": "8.0.10"
+          "Microsoft.JSInterop": "8.0.14"
         },
         "runtime": {
           "lib/net8.0-windows10.0.19041/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
@@ -113,11 +115,11 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Metadata/8.0.10": {
+      "Microsoft.AspNetCore.Metadata/8.0.14": {
         "runtime": {
           "lib/net8.0/Microsoft.AspNetCore.Metadata.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46804"
+            "fileVersion": "8.0.1425.11221"
           }
         }
       },
@@ -261,7 +263,7 @@
       "Microsoft.Extensions.Logging/8.0.1": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "8.0.1",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
           "Microsoft.Extensions.Options": "8.0.2"
         },
         "runtime": {
@@ -271,14 +273,14 @@
           }
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/8.0.2": {
+      "Microsoft.Extensions.Logging.Abstractions/8.0.3": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46610"
+            "fileVersion": "8.0.1325.6609"
           }
         }
       },
@@ -286,7 +288,7 @@
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
           "Microsoft.Extensions.Logging": "8.0.1",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.2"
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
@@ -339,11 +341,11 @@
           }
         }
       },
-      "Microsoft.JSInterop/8.0.10": {
+      "Microsoft.JSInterop/8.0.14": {
         "runtime": {
           "lib/net8.0/Microsoft.JSInterop.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46804"
+            "fileVersion": "8.0.1425.11221"
           }
         }
       },
@@ -364,7 +366,7 @@
       "Microsoft.Maui.Controls.Compatibility/8.0.100": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "8.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
           "Microsoft.Maui.Controls.Core": "8.0.100",
           "Microsoft.Maui.Controls.Xaml": "8.0.100"
         },
@@ -380,7 +382,7 @@
           "Microsoft.Extensions.Configuration": "8.0.0",
           "Microsoft.Extensions.DependencyInjection": "8.0.1",
           "Microsoft.Extensions.Logging": "8.0.1",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
           "Microsoft.Maui.Core": "8.0.100"
         },
         "runtime": {
@@ -512,7 +514,7 @@
           "Microsoft.Extensions.Configuration": "8.0.0",
           "Microsoft.Extensions.DependencyInjection": "8.0.1",
           "Microsoft.Extensions.Logging": "8.0.1",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
           "Microsoft.Graphics.Win2D": "1.2.0",
           "Microsoft.Maui.Essentials": "8.0.100",
           "Microsoft.Maui.Graphics": "8.0.100",
@@ -639,6 +641,58 @@
           }
         }
       },
+      "sqlite-net-pcl/1.9.172": {
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "2.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLite-net.dll": {
+            "assemblyVersion": "1.9.172.0",
+            "fileVersion": "1.9.172.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.bundle_green/2.1.2": {
+        "dependencies": {
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.2",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "2.1.2.1721",
+            "fileVersion": "2.1.2.1721"
+          }
+        }
+      },
+      "SQLitePCLRaw.core/2.1.2": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "2.1.2.1721",
+            "fileVersion": "2.1.2.1721"
+          }
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.2": {
+        "native": {
+          "runtimes/win-x64/native/e_sqlite3.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.2": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.2"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll": {
+            "assemblyVersion": "2.1.2.1721",
+            "fileVersion": "2.1.2.1721"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "runtime": {
           "lib/net8.0/System.IO.Pipelines.dll": {
@@ -646,7 +700,8 @@
             "fileVersion": "8.0.23.53103"
           }
         }
-      }
+      },
+      "System.Memory/4.5.3": {}
     }
   },
   "libraries": {
@@ -660,40 +715,40 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.Authorization/8.0.10": {
+    "Microsoft.AspNetCore.Authorization/8.0.14": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mENBehQP1H9oTB4Diu1l7vR1BeZrBNWA9sHZsln4l2oIs7D3qH3fokopU/8FWa9JSxQYNBT1MeYBCwguYOBjMQ==",
-      "path": "microsoft.aspnetcore.authorization/8.0.10",
-      "hashPath": "microsoft.aspnetcore.authorization.8.0.10.nupkg.sha512"
+      "sha512": "sha512-lcKWEvzaJz+ahDj5J0zz05NGyv4vqEa2vLalBuBf69vL0qrWqqB/rwI4/zdyloun+fLTq1bCnsAwiplbFgQtAA==",
+      "path": "microsoft.aspnetcore.authorization/8.0.14",
+      "hashPath": "microsoft.aspnetcore.authorization.8.0.14.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Components/8.0.10": {
+    "Microsoft.AspNetCore.Components/8.0.14": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qTsPBcK6Z2Yyt+A5GPub9CiUxfmSIrNQ22BT8efzXiz50Vx0KKTsE82pxbipgGU9XNXZhEtYSNTqQFuWyRlIRw==",
-      "path": "microsoft.aspnetcore.components/8.0.10",
-      "hashPath": "microsoft.aspnetcore.components.8.0.10.nupkg.sha512"
+      "sha512": "sha512-b/6dwE/ESturk5VHHzq/GP15qkcxb196T+qxFs4wzUkeZtCx2OuK+1rPIHSgsOjthnHNOAhCY7/9n5uLqyenKA==",
+      "path": "microsoft.aspnetcore.components/8.0.14",
+      "hashPath": "microsoft.aspnetcore.components.8.0.14.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Components.Analyzers/8.0.10": {
+    "Microsoft.AspNetCore.Components.Analyzers/8.0.14": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-czb81hXe2a+w1py/U2MrO3aSb0Ht0r1/I+4vJucjTZwbhHtGubneifS3h05DB6CakT8dgKyS0eypQaLuDKkWtQ==",
-      "path": "microsoft.aspnetcore.components.analyzers/8.0.10",
-      "hashPath": "microsoft.aspnetcore.components.analyzers.8.0.10.nupkg.sha512"
+      "sha512": "sha512-pHPb1bqV2ECTfOw2QcGQzO1/fdpo8mwekY8Jbycm2UZ6yvqLtZRRPd+RVzL74oXR/HTakvqSh2Un1W1rIFTnoQ==",
+      "path": "microsoft.aspnetcore.components.analyzers/8.0.14",
+      "hashPath": "microsoft.aspnetcore.components.analyzers.8.0.14.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Components.Forms/8.0.10": {
+    "Microsoft.AspNetCore.Components.Forms/8.0.14": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YOdsdG/da7xc5uA0dRIe8qUz1rVbbptnYA2CrsxPNka3Nv7Sbh3rArlACGWPBkST3qTRollCx4dLEXpwg/6eEw==",
-      "path": "microsoft.aspnetcore.components.forms/8.0.10",
-      "hashPath": "microsoft.aspnetcore.components.forms.8.0.10.nupkg.sha512"
+      "sha512": "sha512-U83TX0obbdIh1DeIGCix62RILHRa4HC7h0fgEYrV9Gl8tz0wzv6AoYkU4PvnxXAqpYA2wPTMgNOuqt1X2XxCoQ==",
+      "path": "microsoft.aspnetcore.components.forms/8.0.14",
+      "hashPath": "microsoft.aspnetcore.components.forms.8.0.14.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Components.Web/8.0.10": {
+    "Microsoft.AspNetCore.Components.Web/8.0.14": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-gJa07Ni77Eoer/+3tocjnCzxfRcL0TJbKnzBP5auk/cxO5nxzJEHuTADX8gAzlyuLvdrnrtfqRAhR66MGkHmww==",
-      "path": "microsoft.aspnetcore.components.web/8.0.10",
-      "hashPath": "microsoft.aspnetcore.components.web.8.0.10.nupkg.sha512"
+      "sha512": "sha512-h/XSCAHmBywDF6San0FGPyXxK6PZh1g/xz4Ln9yeJNgSmKq5F1ehgVStDkJr4d6pWGr2RRkNxgGYMLRnULMnKw==",
+      "path": "microsoft.aspnetcore.components.web/8.0.14",
+      "hashPath": "microsoft.aspnetcore.components.web.8.0.14.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Components.WebView/8.0.10": {
       "type": "package",
@@ -709,12 +764,12 @@
       "path": "microsoft.aspnetcore.components.webview.maui/8.0.100",
       "hashPath": "microsoft.aspnetcore.components.webview.maui.8.0.100.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Metadata/8.0.10": {
+    "Microsoft.AspNetCore.Metadata/8.0.14": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-E9YwEujZjXhMLi1hqJh+7iLk2DzNxa4dB9wYY8lHYpAzZdVqoGjaFsaaIzwCvSZZxd7S7Cds01Trlye2mTqeZA==",
-      "path": "microsoft.aspnetcore.metadata/8.0.10",
-      "hashPath": "microsoft.aspnetcore.metadata.8.0.10.nupkg.sha512"
+      "sha512": "sha512-4dkb/7GoyaFtEggCEHStc/t05nKgnEr1QUJIP8QaDvxdZTXk9SebVeMMPBSR4zbj6dK2tUwBAOdHLA215lmOWg==",
+      "path": "microsoft.aspnetcore.metadata/8.0.14",
+      "hashPath": "microsoft.aspnetcore.metadata.8.0.14.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/8.0.0": {
       "type": "package",
@@ -807,12 +862,12 @@
       "path": "microsoft.extensions.logging/8.0.1",
       "hashPath": "microsoft.extensions.logging.8.0.1.nupkg.sha512"
     },
-    "Microsoft.Extensions.Logging.Abstractions/8.0.2": {
+    "Microsoft.Extensions.Logging.Abstractions/8.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nroMDjS7hNBPtkZqVBbSiQaQjWRDxITI8Y7XnDs97rqG3EbzVTNLZQf7bIeUJcaHOV8bca47s1Uxq94+2oGdxA==",
-      "path": "microsoft.extensions.logging.abstractions/8.0.2",
-      "hashPath": "microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512"
+      "sha512": "sha512-dL0QGToTxggRLMYY4ZYX5AMwBb+byQBd/5dMiZE07Nv73o6I5Are3C7eQTh7K2+A4ct0PVISSr7TZANbiNb2yQ==",
+      "path": "microsoft.extensions.logging.abstractions/8.0.3",
+      "hashPath": "microsoft.extensions.logging.abstractions.8.0.3.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging.Debug/8.0.1": {
       "type": "package",
@@ -849,12 +904,12 @@
       "path": "microsoft.io.recyclablememorystream/3.0.1",
       "hashPath": "microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512"
     },
-    "Microsoft.JSInterop/8.0.10": {
+    "Microsoft.JSInterop/8.0.14": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VxiFlNValVtpRQomua6h1FOUBK0fiyQbNIh+PMRs9DMHczOHIZpLJmm5LO5h9voBXjW+V/cUE8aNH2GcWps40A==",
-      "path": "microsoft.jsinterop/8.0.10",
-      "hashPath": "microsoft.jsinterop.8.0.10.nupkg.sha512"
+      "sha512": "sha512-eg5HYSshwlO1oOzOg4WdT2ZSPKOu3hv556zPkfNpKEi5qoLuQt49mE1tegsL4H7ENl1dL0vBLRv4+YAuLKt/nA==",
+      "path": "microsoft.jsinterop/8.0.14",
+      "hashPath": "microsoft.jsinterop.8.0.14.nupkg.sha512"
     },
     "Microsoft.Maui.Controls/8.0.100": {
       "type": "package",
@@ -940,12 +995,54 @@
       "path": "microsoft.windowsappsdk/1.5.240802000",
       "hashPath": "microsoft.windowsappsdk.1.5.240802000.nupkg.sha512"
     },
+    "sqlite-net-pcl/1.9.172": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-go533+huyvg5bOMmCpX+DyvLrcVRiEBIpqEiDHgXRijWIBBNkWnyMr/w+5ZzrUArKY+4ApucsbBnFtP3QITrJg==",
+      "path": "sqlite-net-pcl/1.9.172",
+      "hashPath": "sqlite-net-pcl.1.9.172.nupkg.sha512"
+    },
+    "SQLitePCLRaw.bundle_green/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e2FRX87YHoSer+tLFX9P/povHLK0uH7UcdimHRPnfTSam+NZChVVXjBxe1MYnyBGlwX5dSs5sTlDg/yZBM7iVw==",
+      "path": "sqlitepclraw.bundle_green/2.1.2",
+      "hashPath": "sqlitepclraw.bundle_green.2.1.2.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A8EBepVqY2lnAp3a8jnhbgzF2tlj2S3HcJQGANTYg/TbYbKa8Z5cM1h74An/vy0svhfzT7tVY0sFmUglLgv+2g==",
+      "path": "sqlitepclraw.core/2.1.2",
+      "hashPath": "sqlitepclraw.core.2.1.2.nupkg.sha512"
+    },
+    "SQLitePCLRaw.lib.e_sqlite3/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zibGtku8M4Eea1R3ZCAxc86QbNvyEN17mAcQkvWKBuHvRpMiK2g5anG4R5Be7cWKSd1i6baYz8y4dMMAKcXKPg==",
+      "path": "sqlitepclraw.lib.e_sqlite3/2.1.2",
+      "hashPath": "sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512"
+    },
+    "SQLitePCLRaw.provider.e_sqlite3/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lxCZarZdvAsMl2zw9bXHrXK6RxVhB4b23iTFhCOdHFhxfbsxLxWf+ocvswJwR/9Wh/E//ddMi+wJGqUKV7VwoA==",
+      "path": "sqlitepclraw.provider.e_sqlite3/2.1.2",
+      "hashPath": "sqlitepclraw.provider.e_sqlite3.2.1.2.nupkg.sha512"
+    },
     "System.IO.Pipelines/8.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-FHNOatmUq0sqJOkTx+UF/9YK1f180cnW5FVqnQMvYUN0elp6wFzbtPSiqbo1/ru8ICp43JM1i7kKkk6GsNGHlA==",
       "path": "system.io.pipelines/8.0.0",
       "hashPath": "system.io.pipelines.8.0.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
     }
   }
 }

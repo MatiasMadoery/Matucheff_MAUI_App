@@ -1,0 +1,48 @@
+﻿@page "/lista-super"
+@inject NavigationManager NavigationManager
+@inject Services.ListaSuperService ListaSuperService
+
+<div class="banner">
+    <img src="/img/siteImages/banner.jpg" alt="Banner" class="img-fluid" />
+</div>
+
+<h1>Vamos al Super!</h1>
+<br />
+<div class="mb-3">
+    <button class="btn btn-primary" @onclick="IrACrearListaSuper">Crear Lista</button>
+</div>
+<br />
+@if (listasSuper.Any())
+{
+    @foreach (var lista in listasSuper)
+    {
+        <li class="list-group-item">
+            <a href="/ver-lista/@lista.Id" class="text-decoration-none">
+                @lista.Lista
+            </a>
+        </li>
+    }
+}
+else
+{
+    <li class="list-group-item">No se encontraron Listas de compras.</li>
+}
+
+
+
+@code {  
+    
+    private List<RecetasApk.Models.ListaSuper> listasSuper = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        listasSuper = await ListaSuperService.GetListasSuperAsync();
+    }
+
+
+    private void IrACrearListaSuper()
+    {
+        NavigationManager.NavigateTo("/crear-lista");
+    } 
+
+}

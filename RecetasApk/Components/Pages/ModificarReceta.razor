@@ -1,6 +1,7 @@
 ﻿@page "/modificar-receta/{id:int}"
 @using RecetasApk.Models
 @using RecetasApk.Services
+@using Microsoft.Maui.Storage
 @inject Services.RecetaService RecetaService
 @inject NavigationManager NavigationManager
 
@@ -28,6 +29,14 @@ else
             <label for="instrucciones" class="form-label">Instrucciones</label>
             <textarea id="instrucciones" class="form-control" @bind="receta.Instrucciones"></textarea>
         </div>
+        <div class="mb-3">
+            <label class="form-label">Imagen</label>
+            @if (!string.IsNullOrEmpty(receta.Imagen))
+            {
+                <img src="@receta.Imagen" alt="Imagen de la receta" class="img-fluid" style="max-width: 150px"/> 
+            }
+            <button type="button" class="btn btn-secondary" @onclick="TomarFoto">Tomar Foto</button>
+        </div>
 
         <button type="submit" class="btn btn-success">Guardar cambios</button>
         <button type="button" class="btn btn-secondary ms-2" @onclick="VolverAPaginaPrincipal">Cancelar</button>
@@ -43,11 +52,11 @@ else
     protected override async Task OnInitializedAsync()
     {
         receta = await RecetaService.GetRecetaAsync(id);
-        
+
         if (receta == null)
         {
             Console.WriteLine($"No se encontró la receta con ID {id}.");
-           
+            return;
         }
     }
 
@@ -57,6 +66,48 @@ else
         {
             await RecetaService.SaveRecetaAsync(receta);
             NavigationManager.NavigateTo($"/ver-receta/{id}");
+        }
+    }
+
+    private async Task TomarFoto()
+    {
+        if (receta is null)
+        {
+            Console.WriteLine("No hay receta cargada para modificar.");
+            return;
+        }
+
+        try
+        {
+            if (MediaPicker.Default.IsCaptureSupported)
+            {
+                var photo = await MediaPicker.Default.CapturePhotoAsync(new MediaPickerOptions
+                    {
+                        Title = "Tomar foto para la receta"
+                    });
+
+                if (photo is not null)
+                {
+                    // Para almacenar la foto de forma permanente
+                    var newFilePath = Path.Combine(FileSystem.AppDataDirectory, photo.FileName);
+                    using (Stream stream = await photo.OpenReadAsync())
+                    using (FileStream newStream = File.OpenWrite(newFilePath))
+                    {
+                        await stream.CopyToAsync(newStream);
+                    }
+
+                    // Asigno la ruta a la receta (ya se comprobó que receta no es null)
+                    receta.Imagen = newFilePath;
+                }
+            }
+            else
+            {
+                Console.WriteLine("Este dispositivo no soporta la captura de imagenes!");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error al tomar foto: {ex.Message}");
         }
     }
 

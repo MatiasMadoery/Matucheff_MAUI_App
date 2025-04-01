@@ -1,0 +1,57 @@
+﻿@page "/configuracion"
+@inject NavigationManager NavigationManager
+@inject Services.RecetaService RecetaService
+
+<h3>Configuraciones</h3>
+<hr />
+
+<div class="d-flex justify-content-center mt-3">
+    <button class="btn btn-primary me-2" @onclick="ExportarRecetas">
+        <i class="fas fa-download"></i> Exportar Base de Datos
+    </button>
+    <button class="btn btn-secondary" @onclick="SeleccionarArchivoYImportar">
+        <i class="fas fa-upload"></i> Importar Datos
+    </button>
+</div>
+
+@code {
+    private async Task ExportarRecetas()
+    {
+        await RecetaService.ExportarRecetasAsync();
+        Console.WriteLine("Exportación completada.");
+    }
+
+    private async Task SeleccionarArchivoYImportar()
+    {
+        try
+        {
+            // Crear un tipo de archivo para JSON
+            var jsonFileType = new FilePickerFileType(new Dictionary<DevicePlatform, IEnumerable<string>>
+        {
+            { DevicePlatform.Android, new[] { "application/json" } },
+            { DevicePlatform.iOS, new[] { "public.json" } },
+            { DevicePlatform.WinUI, new[] { ".json" } },
+        });
+
+            // Opciones para seleccionar el archivo
+            var pickOptions = new PickOptions
+                {
+                    PickerTitle = "Selecciona un archivo de respaldo",
+                    FileTypes = jsonFileType
+                };
+
+            // Seleccionar el archivo
+            var fileResult = await FilePicker.Default.PickAsync(pickOptions);
+
+            if (fileResult != null)
+            {
+                // Llamar al método para importar recetas
+                await RecetaService.ImportarRecetasAsync(fileResult.FullPath);
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error al seleccionar archivo: {ex.Message}");
+        }
+    }
+}

@@ -2,6 +2,21 @@
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.banner {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 20vh; 
+   
+}
+
+    .banner img {
+        width: 50%;
+        height: auto;
+        border-radius: 10px; /* Opcional: para bordes redondeados */
+        margin-bottom: 20px; /* Opcional */
+    }
+
 a, .btn-link {
     color: #006bb7;
 }

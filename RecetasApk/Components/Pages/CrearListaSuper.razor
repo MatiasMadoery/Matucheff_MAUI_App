@@ -1,0 +1,40 @@
+﻿@page "/crear-lista"
+@inject NavigationManager NavigationManager
+@inject Services.ListaSuperService ListaSuperService
+
+<h1>Crear nueva Lista de compras</h1>
+
+<EditForm Model="nuevaLista" OnValidSubmit="GuardarListaSuper">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label for="lista" class="form-label">Lista</label>
+        <textarea id="lista" class="form-control" @bind="nuevaLista.Lista"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-success">Guardar</button>
+</EditForm>
+
+<div class="mt-4">
+    <button class="btn btn-secondary" @onclick="VolverALaPaginaPrincipal">Volver</button>
+</div>
+
+@code {
+    private RecetasApk.Models.ListaSuper nuevaLista = new();
+
+    private async Task GuardarListaSuper()
+    {
+        await ListaSuperService.SaveListaSuperAsync(nuevaLista);
+        NavigationManager.NavigateTo("/lista-super");
+    }
+
+    private async Task VolverALaPaginaPrincipal()
+    {        
+        var confirmar = await Task.FromResult<bool>(true);
+        if (confirmar)
+        {
+            NavigationManager.NavigateTo("/");
+        }
+    }
+}

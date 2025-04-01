@@ -10,5 +10,6 @@ namespace RecetasApk.Models
         public string Nombre { get; set; } = string.Empty;
         public string Ingredientes  { get; set; } = string.Empty;
         public string Instrucciones {  get; set; } = string.Empty;
+        public string Imagen { get; set; } = string.Empty;
     }
 }

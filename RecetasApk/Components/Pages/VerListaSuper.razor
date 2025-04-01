@@ -1,0 +1,61 @@
+﻿@page "/ver-lista/{id:int}"
+@using RecetasApk.Models
+@using RecetasApk.Services
+@using Microsoft.Maui.ApplicationModel.DataTransfer
+@inject Services.ListaSuperService ListaSuperService
+@inject NavigationManager NavigationManager
+
+<h1>A comprar!!!</h1>
+
+@if (lista != null)
+{
+    <div class="card">
+        <div class="card-body">
+            <p><strong>Lista:</strong></p>
+            <p>@lista.Lista</p>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <button class="btn btn-primary" @onclick="IrAModificarLista">Editar</button>
+        <button class="btn btn-danger ms-2" @onclick="EliminarLista">Eliminar</button>
+    </div>
+}
+else
+{
+    <p>La lista no se encontró.</p>
+}
+
+<button class="btn btn-secondary mt-3" @onclick="VolverAPrincipal">Volver a la Página Principal</button>
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    private RecetasApk.Models.ListaSuper? lista;  // Uso explícito del modelo
+
+    protected override async Task OnInitializedAsync()
+    {
+        lista = await ListaSuperService.GetListaSuperAsync(id);
+    }
+
+    private void IrAModificarLista()
+    {
+        NavigationManager.NavigateTo($"/modificar-lista/{id}");
+    }
+
+    private async Task EliminarLista()
+    {
+        var confirmar = await Task.FromResult<bool>(true);
+        if (confirmar)
+        {
+            await ListaSuperService.DeleteListaSuperAsync(lista!);
+            NavigationManager.NavigateTo("/");
+        }
+    }
+
+    private void VolverAPrincipal()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+}
