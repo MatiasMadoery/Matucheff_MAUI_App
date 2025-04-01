@@ -1,26 +1,36 @@
 ﻿<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">Libro de recetas</a>
+        <a class="navbar-brand" href="">MATUCHEFF</a>
     </div>
 </div>
 
 <input type="checkbox" title="Navigation menu" class="navbar-toggler" />
 
 <div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
-    <nav class="flex-column">
+    <nav class="flex-column">        
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> RECETAS
+            <NavLink class="nav-link d-flex align-items-center" href="" Match="NavLinkMatch.All">
+                <span style="width: 1.5rem; text-align: center;">
+                    <i class="bi bi-house-door-fill"></i>
+                </span>
+                <span class="ms-2">RECETAS</span>
             </NavLink>
-        </div>       
+        </div>        
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="/configuracion" Match="NavLinkMatch.Prefix">
-                <span class="bi bi-gear-fill" aria-hidden="true"></span> CONFIGURACIONES
+            <NavLink class="nav-link d-flex align-items-center" href="/lista-super" Match="NavLinkMatch.Prefix">
+                <span style="width: 1.5rem; text-align: center;">
+                    <i class="bi bi-basket2-fill"></i>
+                </span>
+                <span class="ms-2">LISTA DE COMPRAS</span>
             </NavLink>
         </div>
+        <br />        
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="/lista-super" Match="NavLinkMatch.Prefix">
-                <span class="bi bi-basket2-fill" aria-hidden="true"></span> LISTA DE COMPRAS
+            <NavLink class="nav-link d-flex align-items-center" href="/configuracion" Match="NavLinkMatch.Prefix">
+                <span style="width: 1.5rem; text-align: center;">
+                    <i class="bi bi-gear-fill"></i>
+                </span>
+                <span class="ms-2">CONFIGURACIONES</span>
             </NavLink>
         </div>
     </nav>

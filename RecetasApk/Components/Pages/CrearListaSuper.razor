@@ -1,4 +1,5 @@
 ﻿@page "/crear-lista"
+@using System.Text.Json
 @inject NavigationManager NavigationManager
 @inject Services.ListaSuperService ListaSuperService
 
@@ -9,8 +10,21 @@
     <ValidationSummary />
 
     <div class="mb-3">
-        <label for="lista" class="form-label">Lista</label>
-        <textarea id="lista" class="form-control" @bind="nuevaLista.Lista"></textarea>
+        <label class="form-label">Productos</label>
+        @if (nuevaLista.Items != null && nuevaLista.Items.Any())
+        {
+            @foreach (var item in nuevaLista.Items)
+            {
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" @bind="item.Nombre" placeholder="Nombre del producto" />
+                </div>
+            }
+        }
+        else
+        {
+            <p>Aún no se han agregado productos.</p>
+        }
+        <button type="button" class="btn btn-secondary" @onclick="AgregarProducto">Añadir producto</button>
     </div>
 
     <button type="submit" class="btn btn-success">Guardar</button>
@@ -23,18 +37,26 @@
 @code {
     private RecetasApk.Models.ListaSuper nuevaLista = new();
 
-    private async Task GuardarListaSuper()
+    protected override void OnInitialized()
     {
+        nuevaLista.Items = new List<RecetasApk.Models.ItemLista>();
+    }
+
+    private void AgregarProducto()
+    {
+        nuevaLista.Items.Add(new RecetasApk.Models.ItemLista { Nombre = "", Comprado = false });
+        StateHasChanged();
+    }
+
+    private async Task GuardarListaSuper()
+    {       
+        nuevaLista.ItemsJson = JsonSerializer.Serialize(nuevaLista.Items);
         await ListaSuperService.SaveListaSuperAsync(nuevaLista);
         NavigationManager.NavigateTo("/lista-super");
     }
 
-    private async Task VolverALaPaginaPrincipal()
-    {        
-        var confirmar = await Task.FromResult<bool>(true);
-        if (confirmar)
-        {
-            NavigationManager.NavigateTo("/");
-        }
+    private void VolverALaPaginaPrincipal()
+    {
+        NavigationManager.NavigateTo("/lista-super");
     }
 }

@@ -1,11 +1,11 @@
 ﻿@page "/modificar-lista/{id:int}"
 @using RecetasApk.Models
 @using RecetasApk.Services
-@using Microsoft.Maui.Storage
-@inject Services.ListaSuperService ListaSuperService
+@using System.Text.Json
+@inject ListaSuperService ListaSuperService
 @inject NavigationManager NavigationManager
 
-<h3>Modificar Lista de compras</h3>
+<h3>Modificar Lista de Compras</h3>
 
 @if (lista == null)
 {
@@ -16,14 +16,24 @@ else
     <EditForm Model="lista" OnValidSubmit="GuardarCambios">
         <DataAnnotationsValidator />
         <ValidationSummary />
-      
+
         <div class="mb-3">
-            <label for="lista" class="form-label">Lista</label>
-            <textarea id="lista" class="form-control" @bind="lista.Lista"></textarea>
-        </div>     
-     
+            <label class="form-label">Productos</label>
+            @foreach (var item in lista.Items)
+            {
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" @bind="item.Nombre" />
+                    <div class="input-group-text">
+                        <input type="checkbox" class="form-check-input" @bind="item.Comprado" />
+                    </div>
+                </div>
+            }
+          
+            <button type="button" class="btn btn-secondary" @onclick="AgregarProducto">Añadir producto</button>
+        </div>
+
         <button type="submit" class="btn btn-success">Guardar cambios</button>
-        <button type="button" class="btn btn-secondary ms-2" @onclick="VolverAPaginaPrincipal">Cancelar</button>
+        <button type="button" class="btn btn-secondary ms-2" @onclick="Cancelar">Cancelar</button>
     </EditForm>
 }
 
@@ -36,26 +46,32 @@ else
     protected override async Task OnInitializedAsync()
     {
         lista = await ListaSuperService.GetListaSuperAsync(id);
-
         if (lista == null)
         {
             Console.WriteLine($"No se encontró la lista con ID {id}.");
-            return;
         }
     }
 
     private async Task GuardarCambios()
     {
         if (lista != null)
-        {
+        {           
+            lista.ItemsJson = JsonSerializer.Serialize(lista.Items);
             await ListaSuperService.SaveListaSuperAsync(lista);
             NavigationManager.NavigateTo($"/ver-lista/{id}");
         }
     }
-  
 
-    private void VolverAPaginaPrincipal()
-    {
-        NavigationManager.NavigateTo($"/ver-lista/{id}");
+    private void Cancelar() => NavigationManager.NavigateTo($"/ver-lista/{id}");
+
+    private void AgregarProducto()
+    {       
+        if (lista != null)
+        {
+            lista.Items.Add(new ItemLista { Nombre = "Nuevo producto", Comprado = false });
+        }
     }
 }
+
+  
+

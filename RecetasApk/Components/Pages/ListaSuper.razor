@@ -7,31 +7,37 @@
 </div>
 
 <h1>Vamos al Super!</h1>
-<br />
+
 <div class="mb-3">
     <button class="btn btn-primary" @onclick="IrACrearListaSuper">Crear Lista</button>
 </div>
-<br />
-@if (listasSuper.Any())
+
+@if (listasSuper != null && listasSuper.Any())
 {
-    @foreach (var lista in listasSuper)
-    {
-        <li class="list-group-item">
-            <a href="/ver-lista/@lista.Id" class="text-decoration-none">
-                @lista.Lista
-            </a>
-        </li>
-    }
+    <ul class="list-group">
+        @foreach (var lista in listasSuper)
+        {
+            <li class="list-group-item">
+                <a href="/ver-lista/@lista.Id" class="text-decoration-none">
+                    @if (lista.Items != null && lista.Items.Any())
+                    {
+                        @string.Join(", ", lista.Items.Select(item => item.Nombre))
+                    }
+                    else
+                    {
+                        <em>Lista vacía</em>
+                    }
+                </a>
+            </li>
+        }
+    </ul>
 }
 else
 {
-    <li class="list-group-item">No se encontraron Listas de compras.</li>
+    <div class="alert alert-info">No se encontraron listas de compras.</div>
 }
 
-
-
-@code {  
-    
+@code {
     private List<RecetasApk.Models.ListaSuper> listasSuper = new();
 
     protected override async Task OnInitializedAsync()
@@ -39,10 +45,8 @@ else
         listasSuper = await ListaSuperService.GetListasSuperAsync();
     }
 
-
     private void IrACrearListaSuper()
     {
         NavigationManager.NavigateTo("/crear-lista");
-    } 
-
+    }
 }

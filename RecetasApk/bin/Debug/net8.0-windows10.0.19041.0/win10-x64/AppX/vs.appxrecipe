@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-01T14:51:51.028</Modified>
+      <Modified>2025-04-01T15:21:00.043</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-04-01T14:51:50.910</Modified>
+      <Modified>2025-04-01T15:19:59.849</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\RecetasApk.runtimeconfig.json">
       <PackagePath>RecetasApk.runtimeconfig.json</PackagePath>
-      <Modified>2025-04-01T14:51:50.849</Modified>
+      <Modified>2025-04-01T15:19:59.782</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\RecetasApk.dll">
       <PackagePath>RecetasApk.dll</PackagePath>
-      <Modified>2025-04-01T14:51:50.638</Modified>
+      <Modified>2025-04-01T15:20:59.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>RecetasApk.exe</PackagePath>
-      <Modified>2025-04-01T14:51:50.643</Modified>
+      <Modified>2025-04-01T15:20:59.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -80,235 +80,235 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-04-01T14:51:49.011</Modified>
+      <Modified>2025-04-01T15:19:57.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-04-01T14:51:49.033</Modified>
+      <Modified>2025-04-01T15:19:57.989</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-04-01T14:51:49.053</Modified>
+      <Modified>2025-04-01T15:19:58.009</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-04-01T14:51:49.090</Modified>
+      <Modified>2025-04-01T15:19:58.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-04-01T14:51:49.204</Modified>
+      <Modified>2025-04-01T15:19:58.144</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2025-03-26T14:22:26.270</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
-      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+      <Modified>2025-04-01T15:19:58.948</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
+      <Modified>2025-04-01T15:19:58.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
-      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.138</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.148</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.148</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.148</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.148</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.148</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.148</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.148</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.148</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.148</Modified>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.150</Modified>
+      <Modified>2025-04-01T15:19:58.945</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.158</Modified>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.158</Modified>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.158</Modified>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.158</Modified>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.158</Modified>
+      <Modified>2025-04-01T15:19:58.945</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.158</Modified>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.945</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.158</Modified>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.945</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.158</Modified>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.945</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.158</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.158</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.158</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.158</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.158</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.158</Modified>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.945</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-01T14:51:50.158</Modified>
+      <Modified>2025-04-01T15:19:58.948</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
-      <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-04-01T14:51:50.158</Modified>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.948</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.948</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+      <Modified>2025-04-01T15:19:58.930</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\RecetasApk.deps.json">
       <PackagePath>RecetasApk.deps.json</PackagePath>
-      <Modified>2025-04-01T14:51:50.849</Modified>
+      <Modified>2025-04-01T15:19:59.780</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -684,7 +684,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\staticwebassets.build.endpoints.json">
       <PackagePath>RecetasApk.staticwebassets.endpoints.json</PackagePath>
-      <Modified>2025-04-01T14:51:44.668</Modified>
+      <Modified>2025-04-01T15:19:53.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\.nuget\packages\microsoft.maui.controls.compatibility\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -700,11 +700,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\RecetasApk.styles.css">
       <PackagePath>wwwroot\RecetasApk.styles.css</PackagePath>
-      <Modified>2025-04-01T14:51:44.648</Modified>
+      <Modified>2025-04-01T15:19:53.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\RecetasApk.bundle.scp.css">
       <PackagePath>wwwroot\RecetasApk.iut2ok8gww.bundle.scp.css</PackagePath>
-      <Modified>2025-04-01T14:51:44.648</Modified>
+      <Modified>2025-04-01T15:19:53.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matim\OneDrive\Escritorio\Proyectos\APkRecetas\RecetasApk\RecetasApk\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>
