@@ -1,6 +1,7 @@
 ﻿@page "/ver-receta/{id:int}"
 @using RecetasApk.Models
 @using RecetasApk.Services
+@using Microsoft.Maui.ApplicationModel.DataTransfer
 @inject Services.RecetaService RecetaService
 @inject NavigationManager NavigationManager
 
@@ -15,7 +16,6 @@
         <div class="card-body">
             <p><strong>Ingredientes:</strong></p>
             <p>@receta.Ingredientes</p>
-
             <p><strong>Instrucciones:</strong></p>
             <p>@receta.Instrucciones</p>
         </div>
@@ -24,6 +24,7 @@
     <div class="mt-4">
         <button class="btn btn-primary" @onclick="IrAModificarReceta">Editar</button>
         <button class="btn btn-danger ms-2" @onclick="EliminarReceta">Eliminar</button>
+        <button class="btn btn-info ms-2" @onclick="CompartirReceta">Compartir</button>
     </div>
 }
 else
@@ -56,6 +57,23 @@ else
         {
             await RecetaService.DeleteRecetaAsync(receta!);
             NavigationManager.NavigateTo("/");
+        }
+    }
+
+    private async Task CompartirReceta()
+    {
+        if (receta != null)
+        {
+            string contenidoParaCompartir = $"Mira esta receta:\n\n" +
+            $"Nombre: {receta.Nombre}\n\n" + 
+            $"Ingredientes: {receta.Ingredientes}\n\n" +
+            $"Instrucciones: {receta.Instrucciones}";
+
+            await Share.Default.RequestAsync(new ShareTextRequest
+            {
+                Text = contenidoParaCompartir,
+                Title = "Compartir Receta"
+            });
         }
     }
 

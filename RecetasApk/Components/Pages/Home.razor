@@ -3,48 +3,84 @@
 @inject Services.RecetaService RecetaService
 
 <div class="banner">
-    <img src="~/img/siteImages/banner.jpg" alt="Banner" class="img-fluid"/>
+    <img src="/img/siteImages/banner.jpg" alt="Banner" class="img-fluid"/>
 </div>
 
 <h1>Mis recetas!</h1>
-
-<div class="mb-3">
-    <button class="btn btn-primary" @onclick="IrACrearReceta">Crear Receta</button>
-</div>
-
 <div class="input-group mb-3">
     <input @bind="query" type="text" class="form-control" placeholder="Buscar recetas..." />
     <button class="btn btn-secondary" @onclick="BuscarRecetas">Buscar</button>
 </div>
-
-@if (recetas is not null)
+<br />
+<div class="mb-3">
+    <button class="btn btn-primary" @onclick="IrACrearReceta">Crear Receta</button>
+</div>
+<br />
+@if (recetas.Any())
 {
-    <ul class="list-group">
-        @if (recetas.Any())
-        {
-            @foreach (var receta in recetas)
-            {
-                <li class="list-group-item">
-                    <a href="/ver-receta/@receta.Id" class="text-decoration-none">
-                        @receta.Nombre
-                    </a>
-                </li>
-            }
-        }
-        else
-        {
-            <li class="list-group-item">No se encontraron recetas.</li>
-        }
-    </ul>
+    @foreach (var receta in recetas)
+    {
+        <li class="list-group-item">
+            <a href="/ver-receta/@receta.Id" class="text-decoration-none">
+                @receta.Nombre
+            </a>
+        </li>
+    }
+    <nav class="mt-3">
+        <button class="btn btn-secondary" @onclick="PaginaAnterior" disabled="@((paginaActual <= 1))">Anterior</button>
+        <span class="mx-2">Página @paginaActual de @totalPaginas</span>
+        <button class="btn btn-secondary" @onclick="PaginaSiguiente" disabled="@((paginaActual >= totalPaginas))">Siguiente</button>
+    </nav>
+
+}
+else
+{
+    <li class="list-group-item">No se encontraron recetas.</li>
 }
 
+
+
 @code {
+    private int recetasPorPagina = 5;
+    private int paginaActual = 1;
+    private int totalPaginas = 1;
+
     private string query = string.Empty;
     private List<RecetasApk.Models.Receta> recetas = new();
 
     protected override async Task OnInitializedAsync()
     {
-        recetas = await RecetaService.GetRecetasAsync();
+        var todasLasRecetas = await RecetaService.GetRecetasAsync();
+        totalPaginas = (int)Math.Ceiling((double)todasLasRecetas.Count / recetasPorPagina);
+        ActualizarRecetasPorPagina(todasLasRecetas);
+    }
+
+    private void ActualizarRecetasPorPagina(List<RecetasApk.Models.Receta> todasLasRecetas)
+    {
+        recetas = todasLasRecetas
+            .Skip((paginaActual - 1) * recetasPorPagina)
+            .Take(recetasPorPagina)
+            .ToList();
+    }
+
+    private async Task PaginaSiguiente()
+    {
+        if (paginaActual < totalPaginas)
+        {
+            paginaActual++;
+            var todasLasRecetas = await RecetaService.GetRecetasAsync();
+            ActualizarRecetasPorPagina(todasLasRecetas);
+        }
+    }
+
+    private async Task PaginaAnterior()
+    {
+        if (paginaActual > 1)
+        {
+            paginaActual--;
+            var todasLasRecetas = await RecetaService.GetRecetasAsync();
+            ActualizarRecetasPorPagina(todasLasRecetas);
+        }
     }
 
     private void IrACrearReceta()
@@ -56,7 +92,7 @@
     {
         var todas = await RecetaService.GetRecetasAsync();
         recetas = string.IsNullOrEmpty(query)
-            ? todas
+            ? new List<RecetasApk.Models.Receta>()
             : todas.Where(recetas => recetas.Nombre.Contains(query, StringComparison.OrdinalIgnoreCase)).ToList();
     }
 

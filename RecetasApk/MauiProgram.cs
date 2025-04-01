@@ -17,6 +17,7 @@ namespace RecetasApk
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 });
 
+
             builder.Services.AddMauiBlazorWebView();
 
 #if DEBUG

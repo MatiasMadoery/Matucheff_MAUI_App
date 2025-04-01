@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RecetasApk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3087b760dcce2048b1e43a573dea2243eaf43913")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+4c575a4e51c4c7abd30c777858168e0d8f658186")]
 [assembly: System.Reflection.AssemblyProductAttribute("RecetasApk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RecetasApk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

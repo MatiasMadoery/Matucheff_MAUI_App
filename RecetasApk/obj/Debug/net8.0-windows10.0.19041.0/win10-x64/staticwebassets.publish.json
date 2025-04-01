@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "S+ba1K/FlVBDOJybUxyELM/PgubM5m6dTiOHJU1I8BY=",
+  "Hash": "NK/JscnQ/ldGAx7ncRKeoArgTn/CK3HIlt+1iGPZ2iY=",
   "Source": "RecetasApk",
   "BasePath": "/",
   "Mode": "Root",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jqyt8htakz",
-      "Integrity": "G5FaInEay51DVRI9bFdibEWpaC6Hm2RnBJau+LuBA1s=",
+      "Fingerprint": "aitkyh3out",
+      "Integrity": "nrePafmBtoX4FeiHFQTJ9lqF1zjZkxm0yD7HxOtnxnU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
@@ -187,6 +187,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/app.aitkyh3out.css",
+      "AssetFile": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\wwwroot\\css\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3645"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nrePafmBtoX4FeiHFQTJ9lqF1zjZkxm0yD7HxOtnxnU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 16:17:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aitkyh3out"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nrePafmBtoX4FeiHFQTJ9lqF1zjZkxm0yD7HxOtnxnU="
+        }
+      ]
+    },
+    {
       "Route": "css/app.css",
       "AssetFile": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\wwwroot\\css\\app.css",
       "Selectors": [],
@@ -197,7 +242,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3488"
+          "Value": "3645"
         },
         {
           "Name": "Content-Type",
@@ -205,11 +250,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"G5FaInEay51DVRI9bFdibEWpaC6Hm2RnBJau+LuBA1s=\""
+          "Value": "\"nrePafmBtoX4FeiHFQTJ9lqF1zjZkxm0yD7HxOtnxnU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 29 Mar 2025 13:45:53 GMT"
+          "Value": "Mon, 31 Mar 2025 16:17:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -219,52 +264,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-G5FaInEay51DVRI9bFdibEWpaC6Hm2RnBJau+LuBA1s="
-        }
-      ]
-    },
-    {
-      "Route": "css/app.jqyt8htakz.css",
-      "AssetFile": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\wwwroot\\css\\app.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3488"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"G5FaInEay51DVRI9bFdibEWpaC6Hm2RnBJau+LuBA1s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 29 Mar 2025 13:45:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jqyt8htakz"
-        },
-        {
-          "Name": "label",
-          "Value": "css/app.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-G5FaInEay51DVRI9bFdibEWpaC6Hm2RnBJau+LuBA1s="
+          "Value": "sha256-nrePafmBtoX4FeiHFQTJ9lqF1zjZkxm0yD7HxOtnxnU="
         }
       ]
     },
@@ -701,7 +701,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 29 Mar 2025 14:55:48 GMT"
+          "Value": "Mon, 31 Mar 2025 23:55:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -738,7 +738,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 29 Mar 2025 14:55:48 GMT"
+          "Value": "Mon, 31 Mar 2025 23:55:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -783,7 +783,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 29 Mar 2025 14:55:48 GMT"
+          "Value": "Mon, 31 Mar 2025 23:55:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -828,7 +828,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 29 Mar 2025 14:55:48 GMT"
+          "Value": "Mon, 31 Mar 2025 23:55:09 GMT"
         },
         {
           "Name": "Cache-Control",
