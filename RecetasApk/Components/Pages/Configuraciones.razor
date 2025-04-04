@@ -1,6 +1,7 @@
 ﻿@page "/configuracion"
 @inject NavigationManager NavigationManager
 @inject Services.RecetaService RecetaService
+@inject IJSRuntime JSRuntime
 
 <h3>Configuraciones</h3>
 <hr />
@@ -14,44 +15,70 @@
     </button>
 </div>
 
+@if (!string.IsNullOrEmpty(UserMessage))
+{
+    <div class="alert alert-success mt-3">
+        @UserMessage
+    </div>
+}
+
 @code {
+    private string? UserMessage;
+
     private async Task ExportarRecetas()
     {
+        var permisoEscritura = await Permissions.CheckStatusAsync<Permissions.StorageWrite>();
+        if (permisoEscritura != PermissionStatus.Granted)
+        {
+            permisoEscritura = await Permissions.RequestAsync<Permissions.StorageWrite>();
+        }
+
         await RecetaService.ExportarRecetasAsync();
         Console.WriteLine("Exportación completada.");
+
+        // Mostrar mensaje al usuario
+        UserMessage = "¡Exportación completada exitosamente!";
     }
 
     private async Task SeleccionarArchivoYImportar()
     {
         try
         {
-            // Crear un tipo de archivo para JSON
-            var jsonFileType = new FilePickerFileType(new Dictionary<DevicePlatform, IEnumerable<string>>
-        {
-            { DevicePlatform.Android, new[] { "application/json" } },
-            { DevicePlatform.iOS, new[] { "public.json" } },
-            { DevicePlatform.WinUI, new[] { ".json" } },
-        });
+            var permisoLectura = await Permissions.CheckStatusAsync<Permissions.StorageRead>();
+            if (permisoLectura != PermissionStatus.Granted)
+            {
+                permisoLectura = await Permissions.RequestAsync<Permissions.StorageRead>();
+            }
 
-            // Opciones para seleccionar el archivo
+            var jsonFileType = new FilePickerFileType(new Dictionary<DevicePlatform, IEnumerable<string>>
+            {
+                { DevicePlatform.Android, new[] { "application/json" } },
+                { DevicePlatform.iOS, new[] { "public.json" } },
+                { DevicePlatform.WinUI, new[] { ".json" } },
+            });
+
             var pickOptions = new PickOptions
                 {
                     PickerTitle = "Selecciona un archivo de respaldo",
                     FileTypes = jsonFileType
                 };
 
-            // Seleccionar el archivo
             var fileResult = await FilePicker.Default.PickAsync(pickOptions);
 
             if (fileResult != null)
             {
-                // Llamar al método para importar recetas
                 await RecetaService.ImportarRecetasAsync(fileResult.FullPath);
+                UserMessage = "¡Importación completada exitosamente!";
+            }
+            else
+            {
+                UserMessage = "No se seleccionó ningún archivo.";
             }
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Error al seleccionar archivo: {ex.Message}");
+            UserMessage = $"Error: {ex.Message}";
         }
     }
 }

@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\obj\\Release\\net8.0-maccatalyst\\scopedcss\\bundle\\RecetasApk.styles.css",
+      "PackagePath": "staticwebassets\\RecetasApk.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\wwwroot\\img\\siteImages\\banner.jpg",
+      "PackagePath": "staticwebassets\\img\\siteImages\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\matim\\OneDrive\\Escritorio\\Proyectos\\APkRecetas\\RecetasApk\\RecetasApk\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Release\\net8.0-maccatalyst\\staticwebassets\\msbuild.RecetasApk.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0-maccatalyst\\staticwebassets\\msbuild.RecetasApk.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0-maccatalyst\\staticwebassets\\msbuild.build.RecetasApk.props",
+      "PackagePath": "build\\RecetasApk.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0-maccatalyst\\staticwebassets\\msbuild.buildMultiTargeting.RecetasApk.props",
+      "PackagePath": "buildMultiTargeting\\RecetasApk.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0-maccatalyst\\staticwebassets\\msbuild.buildTransitive.RecetasApk.props",
+      "PackagePath": "buildTransitive\\RecetasApk.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
